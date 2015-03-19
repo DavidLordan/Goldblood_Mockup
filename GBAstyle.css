@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2015, 9:09:02 PM
+    Author     : DaveLordan
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    display: table; 
+    width: 100%;
+    height: 100%;
+    // border: 1px solid red;   
+    text-align: center;
+}
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 300px;
+}
+
+li {
+    float: left;
+    // margin-left: 20px;
+
+}
+
+a {
+    font-family: "Fjalla One";
+    display: block;
+    width: 60px;
+    color:white;
+    padding-right: 20px;
+    // background-color: #dddddd;
+    width: 100%;
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+    font-size: 2.5em;
+}
+
+.banner{
+    //display: none;
+    background-color: black;
+    float: left;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+
+}
+.logo{
+    //display: none;
+    position: absolute;
+    width:200px;
+    height:200px;
+    top:0px;
+    left:0px;
+    right:0px;
+    float:left;
+
+    margin-bottom:-20px;
+}
+.content{
+    // margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/GBBlur.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: green;
+}
+
+.blog{
+    font-family: 'Droid Serif', serif;
+    color: white;
+    margin: 50px;
+    margin-bottom: 0px;
+    width: 400px;
+    border:2px solid white;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 60, 0.5);
+    margin-left: 80px;
+}
+
+
+@media screen and (max-width: 890px) {
+    .blog {
+        width: 270px;
+        //background-color: red;
+    }
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-left: 230px;
+    }
+
+    li {
+        float: left;
+        // margin-left: 20px;
+
+    }
+
+    a {
+        font-family: "Fjalla One";
+        display: block;
+        width: 60px;
+        color:white;
+        padding-right: 20px;
+        // background-color: #dddddd;
+        width: 100%;
+        border-right-style: solid;
+        border-right-color: white;
+        border-right-width: 1px;
+        font-size: 1.5em;
+    }
+
+    .banner{
+        //display: none;
+        background-color: black;
+        float: left;
+        width: 100%;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        border-bottom-width: 1px;
+
+    }
+    .logo{
+        //display: none;
+        position: absolute;
+        width:200px;
+        height:200px;
+        top:0px;
+        left:0px;
+        right:0px;
+        float:left;
+        margin-bottom:-20px;
+    }
+
+}
+
+
+.blogHeader{
+    padding: 10px;
+    font-size: 1.5em;
+    border-bottom:2px solid white;
+
+}
+
+.blogContent{ 
+    padding: 10px;
+    // background-color: #666666;
+}
+
+.media{
+    color:white;
+    width: 300px;
+    height: 100%;
+    float: right;
+    background-color:rgba(20, 20, 20, 0.5);
+}
+
+
+@media screen and (max-width: 700px) {
+    .blog {
+        width: 400px;
+       // background-color: green;
+    }
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-left: 230px;
+    }
+
+    li {
+        float: left;
+        // margin-left: 20px;
+
+    }
+
+    a {
+        font-family: "Fjalla One";
+        display: block;
+        width: 60px;
+        color:white;
+        padding-right: 20px;
+        // background-color: #dddddd;
+        width: 100%;
+        border-right-style: solid;
+        border-right-color: white;
+        border-right-width: 1px;
+        font-size: 1.5em;
+    }
+
+    .banner{
+        //display: none;
+        background-color: black;
+        float: left;
+        width: 100%;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        border-bottom-width: 1px;
+
+    }
+    .logo{
+        //display: none;
+        position: absolute;
+        width:200px;
+        height:200px;
+        top:0px;
+        left:0px;
+        right:0px;
+        float:left;
+        margin-bottom:-20px;
+    }
+    
+    
+    .media{
+   display:none;
+}
+
+}

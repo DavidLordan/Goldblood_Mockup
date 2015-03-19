@@ -1,0 +1,3 @@
+[18-Mar-2015 15:46:07 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'DaveLord'@'localhost' (using password: YES) in /home/davelord/public_html/test_blog/scripts/database_connection.php on line 4
+[18-Mar-2015 15:46:07 UTC] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/davelord/public_html/test_blog/scripts/functions.php on line 9
+[18-Mar-2015 15:46:07 UTC] PHP Warning:  mysqli::close() [<a href='mysqli.close'>mysqli.close</a>]: Couldn't fetch mysqli in /home/davelord/public_html/test_blog/scripts/functions.php on line 32
