@@ -1,7 +1,8 @@
 # Goldblood_Mockup
-This is a mock-up page showcasing the new design of the Gold Blood & Associates' (my band) new website. 
+This is a mock-up page showcasing the design of the Gold Blood & Associates' (my band) new website. 
 
-<p>The main purpose of this was trying to solve the problem of ban's updating their site's info. All anyone in the band has to
+<p>Not much functionallity yet, it's still brand new. The main purpose of this however was trying to 
+solve the problem of bands updating their site's info. All anyone in the band has to
 do is jump over to the blog-admin site and make a post. No knowledge of coding required.</p>
 
 <p>Take a look inside the blog_admin folder to see all of the files.</p>
