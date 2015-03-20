@@ -1,7 +1,7 @@
 <?php
 	
 	define('DATABASE_HOST', 'localhost');
-	define('DATABASE_USERNAME','davelord');
+	define('DATABASE_USERNAME','');
 	define('DATABASE_PASSWORD','');
 	define('DATABASE_NAME','davelord_test_blog');
 	define('MY_TABLE_NAME','test_blog_table');
