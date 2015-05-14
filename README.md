@@ -15,8 +15,6 @@ do is jump over to the blog-admin site and make a post. No knowledge of coding r
 add, edit, or delete posts. So easy a musician can do it!</p>
 
 
-j
-this is test 23456
-merge issue?
+this is new
 
-this is test 987
+!
