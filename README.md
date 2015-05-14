@@ -14,11 +14,9 @@ do is jump over to the blog-admin site and make a post. No knowledge of coding r
 <p>Anything posted on the blog control site will automatically be published on the band's public site. Users can conveniently
 add, edit, or delete posts. So easy a musician can do it!</p>
 
-<<<<<<< HEAD
+
 j
 this is test 23456
 merge issue?
 
-=======
 this is test 987
->>>>>>> 83d59db8cd6075aeca77c3ce7c493a329cd17061
