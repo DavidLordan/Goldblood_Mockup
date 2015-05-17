@@ -16,3 +16,5 @@ add, edit, or delete posts. So easy a musician can do it!</p>
 
 this is a thing
 more text
+this was added in the editor
+
